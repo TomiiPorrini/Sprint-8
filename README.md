@@ -26,3 +26,6 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
     - El propio cliente autenticado o un empleado puede modificar las direcciones. 
 * LISTADO DE TODAS LAS SUCURSALES
     - Un endpoint público que devuelve el listado todas las sucursales con la información correspondiente. 
+
+### Archivo de consigna
+[Archivo-consigna-pdf](ConsignaFinal-Sprint-8.pdf)
