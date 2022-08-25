@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="78.5" viewBox="0 0 96 78.5">
+  <g id="Grupo_2696" data-name="Grupo 2696" transform="translate(0 2.5)">
+    <g id="Icon_feather-home" data-name="Icon feather-home" transform="translate(28)">
+      <path id="Trazado_51" data-name="Trazado 51" d="M4.5,17.7,23.4,3,42.3,17.7V40.8A4.2,4.2,0,0,1,38.1,45H8.7a4.2,4.2,0,0,1-4.2-4.2Z" transform="translate(-4.5 -3)" fill="none" stroke="#1873b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Trazado_52" data-name="Trazado 52" d="M13.5,39V18H26.1V39" transform="translate(-0.9 3)" fill="none" stroke="#1873b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <text id="Institucional" transform="translate(0 72)" fill="#889fb4" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Institucional</tspan></text>
+  </g>
+</svg>

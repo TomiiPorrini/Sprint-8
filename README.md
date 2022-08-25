@@ -29,3 +29,12 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
 
 ### Archivo de consigna
 [Archivo-consigna-pdf](ConsignaFinal-Sprint-8.pdf)
+
+## Cuentas de prueba realizadas. 
+* EMPLEADO: 
+    - user: empleado
+    - pwd: employee123
+
+* CLIENTE: 
+    - user: cliente
+    - pwd: customer123

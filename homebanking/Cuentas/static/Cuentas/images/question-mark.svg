@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="75" viewBox="0 0 64 75">
+  <g id="Grupo_2697" data-name="Grupo 2697" transform="translate(-951 -971)">
+    <path id="Icon_awesome-question" data-name="Icon awesome-question" d="M16.381,0C9.784,0,5.511,2.7,2.157,7.523a1.986,1.986,0,0,0,.428,2.717l3.565,2.7A1.983,1.983,0,0,0,8.9,12.6c2.07-2.594,3.606-4.087,6.84-4.087,2.543,0,5.687,1.636,5.687,4.1,0,1.864-1.539,2.821-4.049,4.229-2.928,1.641-6.8,3.684-6.8,8.794v.809a1.984,1.984,0,0,0,1.984,1.984h5.99a1.984,1.984,0,0,0,1.984-1.984V25.97c0-3.542,10.353-3.69,10.353-13.275C30.884,5.476,23.4,0,16.381,0Zm-.828,30.865a5.725,5.725,0,1,0,5.725,5.725A5.732,5.732,0,0,0,15.552,30.865Z" transform="translate(966.2 971)" fill="#1873b9"/>
+    <text id="Legales" transform="translate(951 1042)" fill="#889fb4" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Legales</tspan></text>
+  </g>
+</svg>
