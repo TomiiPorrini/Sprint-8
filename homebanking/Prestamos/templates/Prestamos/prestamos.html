@@ -1,0 +1,48 @@
+<!-- agregamos el bloque extends que tomara el html base-->
+{% extends 'Login/base.html' %}
+<!-- Agregamos el contenido estatico-->
+{% load static %}
+<!-- Agregamos el titulo de la home -->
+{% block title %} Prestamos {% endblock %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'Login/css/styles-index.css' %}">{% endblock %}
+
+<!-- indicamos que lo de abajao se dibuje despues del menu armado en la base-->
+{% block content %}
+    {% if nombre and verif %}
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p><b>Gracias {{nombre | title}} {{apellido | title}}!</b></p>
+            <p>
+                <b
+                >Tu prestamo fue solicitado correctamente, en breve nos pondremos en
+                contacto</b
+                >
+            </p>
+        </div>
+    {% elif not nombre %}
+        <div class="input-group mb-3">
+            <div class="container">
+                <h1 style='color: #004481;' class="text-center p-3">SOLICITUD DE PRÉSTAMOS</h1>
+                <h5 class="subheading text-primary text-center">Solicite aquí su prestamo pre-aprobado</h5>
+                <div class="card">
+                    <div class="card-header">Solicitud para préstamo pre-aprobado</div>
+                    <div class="card-body">
+                        <form method="POST">
+                            {% csrf_token %} 
+
+                            {{form.as_p}}
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% elif not verif %}
+        <p>
+            Lo sentimos, su tipo de cuenta no tiene el limite de prestamo suficiente para realizar esta
+            acción.
+        </p>
+    {% endif %}
+{% endblock %}
