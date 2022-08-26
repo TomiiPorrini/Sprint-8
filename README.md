@@ -30,11 +30,23 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
 ### Archivo de consigna
 [Archivo-consigna-pdf](ConsignaFinal-Sprint-8.pdf)
 
-## Cuentas de prueba realizadas. 
-* EMPLEADO: 
+# DATOS PARA PRUEBAS
+
+#### CUENTAS
+
+* EMPLEADO : (es Conan Livingston)
     - user: empleado
     - pwd: employee123
 
-* CLIENTE: 
+* CLIENTE 1: (es Moses Greer)
     - user: cliente
     - pwd: customer123
+
+* CLIENTE 2: (es Leslie Moses)
+    - user: cliente2
+    - pwd: customer123
+
+#### DNI a probar para las tarjetas.
+
+1. 8712075
+2. 74701370

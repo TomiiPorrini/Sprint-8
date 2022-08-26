@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     
     # My apps
     'Clientes',
@@ -46,7 +47,8 @@ INSTALLED_APPS = [
     'Login',
     'Prestamos',
     'Tarjetas',
-    'movimientos'
+    'movimientos',
+    'api'
     
     # Third party apps
 ]
