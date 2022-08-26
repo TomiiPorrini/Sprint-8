@@ -23,6 +23,7 @@ from movimientos import views as views_movimientos
 from Login import views as views_login
 from django.urls import include
 from django.conf import settings
+from api import views as api_views
 
 # from Login import views as views_login
 
@@ -37,6 +38,8 @@ urlpatterns = [
     path('cuentas/', views_cuentas.cuentas, name='cuentas'),
     path('accounts/',include('django.contrib.auth.urls')),
     path('movimientos/',views_movimientos.movimientos, name='movimientos'),
+    path('api/cliente/<int:customer_DNI>/',api_views.TarjetasCliente.as_view(), name="api_cliente_especifico"),
+    path('api/cliente/direccion/<int:customer_DNI>/',api_views.DireccionCliente.as_view(), name="api_cliente_modi_Direccion"),
 ]
 
 if settings.DEBUG:
