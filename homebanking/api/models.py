@@ -51,3 +51,33 @@ class Empleado(models.Model):
     class Meta:
         managed = False
         db_table = 'empleado'
+
+class Cuenta(models.Model):
+    account_id = models.AutoField(primary_key=True)
+    customer_id = models.IntegerField()
+    balance = models.IntegerField()
+    iban = models.TextField()
+    type_account_id = models.IntegerField()
+
+    class Meta:
+        managed = False
+        db_table = 'cuenta'
+
+class TipoCuenta(models.Model):
+    account_type_id = models.AutoField(primary_key=True)
+    account_type_description = models.TextField()
+
+    class Meta:
+        managed = False
+        db_table = 'tipo_cuenta'
+
+class Prestamo(models.Model):
+    loan_id = models.AutoField(primary_key=True)
+    loan_type = models.TextField()
+    loan_date = models.TextField()
+    loan_total = models.IntegerField()
+    customer_id = models.IntegerField()
+
+    class Meta:
+        managed = False
+        db_table = 'prestamo'
