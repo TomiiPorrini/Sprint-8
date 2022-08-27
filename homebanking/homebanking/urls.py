@@ -1,18 +1,3 @@
-"""homebanking URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.0/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
 from django.contrib import admin
 from django.urls import path, include
 from django.urls import path
@@ -38,7 +23,10 @@ urlpatterns = [
     path('cuentas/', views_cuentas.cuentas, name='cuentas'),
     path('accounts/',include('django.contrib.auth.urls')),
     path('movimientos/',views_movimientos.movimientos, name='movimientos'),
-    path('api/cliente/<int:customer_DNI>/',api_views.TarjetasCliente.as_view(), name="api_cliente_especifico"),
+    path('api/cliente/info/<int:customer_DNI>/',api_views.InfoCliente.as_view(), name='api_info_cliente'),
+    path('api/cliente/cuenta/<int:customer_DNI>/',api_views.SaldoYCuentaCliente.as_view(), name='api_saldoYcuenta_cliente'),
+    path('api/cliente/prestamo/<int:customer_DNI>/',api_views.MontoPrestamosCliente.as_view(), name='api_monto_prestamo_cliente'),
+    path('api/cliente/tarjeta/<int:customer_DNI>/',api_views.TarjetasCliente.as_view(), name="api_cliente_tarjeta"),
     path('api/cliente/direccion/<int:customer_DNI>/',api_views.DireccionCliente.as_view(), name="api_cliente_modi_Direccion"),
 ]
 

@@ -12,6 +12,16 @@ class esEmpleado(permissions.BasePermission):
         else:
             return False
 
+class esCliente(permissions.BasePermission):
+    def has_permission(self, request, view):
+        nombre = request.user.first_name
+        apellido = request.user.last_name
+        
+        if Cliente.objects.using('ITBANK').filter(customer_name=nombre, customer_surname=apellido):
+            return True
+        else:
+            return False
+
 class esEmpleadoOCliente(permissions.BasePermission):
     def has_permission(self, request, view):
         nombre = request.user.first_name
