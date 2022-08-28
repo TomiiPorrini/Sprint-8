@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="902" height="438" viewBox="0 0 902 438">
+  <defs>
+    <filter id="Rectángulo_4" x="0" y="0" width="902" height="438" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#2e517a" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2716" data-name="Grupo 2716" transform="translate(-95 -712)">
+    <g id="Grupo_2712" data-name="Grupo 2712" transform="translate(101 477)">
+      <g transform="matrix(1, 0, 0, 1, -6, 235)" filter="url(#Rectángulo_4)">
+        <rect id="Rectángulo_4-2" data-name="Rectángulo 4" width="812" height="348" rx="10" transform="translate(45 40)" fill="#fff"/>
+      </g>
+      <text id="TENES_DISPONIBLE_UN" data-name="TENES DISPONIBLE UN" transform="translate(91 374)" fill="#004481" font-size="43" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">TENES DISPONIBLE UN</tspan></text>
+      <text id="PRÉSTAMO_PREAPROBADO" data-name="PRÉSTAMO PREAPROBADO" transform="translate(91 449)" fill="#004481" font-size="43" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">PRÉSTAMO PREAPROBADO</tspan></text>
+    </g>
+    <g id="Grupo_2713" data-name="Grupo 2713" transform="translate(119.5 996)">
+      <g id="spacer" transform="translate(64.5 -11)" fill="#004481" stroke="rgba(0,0,0,0)" stroke-width="1">
+        <rect width="414" height="59.435" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="413" height="58.435" rx="9.5" fill="none"/>
+      </g>
+      <text id="Conocé_más" data-name="Conocé más" transform="translate(200.5 25)" fill="#fff" font-size="25" font-family="Helvetica" letter-spacing="0.012em"><tspan x="0" y="0">Conocé más</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="72.128" viewBox="0 0 54 72.128">
+  <g id="Grupo_2699" data-name="Grupo 2699" transform="translate(-701 -973.872)">
+    <path id="Icon_feather-twitter" data-name="Icon feather-twitter" d="M38.576,4.5A18.37,18.37,0,0,1,33.285,7.08a7.55,7.55,0,0,0-13.246,5.056v1.685A17.965,17.965,0,0,1,4.871,6.187S-1.871,21.355,13.3,28.1A19.617,19.617,0,0,1,1.5,31.467c15.168,8.426,33.706,0,33.706-19.381a7.584,7.584,0,0,0-.135-1.4A13.01,13.01,0,0,0,38.576,4.5Z" transform="translate(707.462 971.016)" fill="none" stroke="#1873b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <text id="Twitter" transform="translate(701 1042)" fill="#889fb4" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Twitter</tspan></text>
+  </g>
+</svg>

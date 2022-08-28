@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="902" height="748" viewBox="0 0 902 748">
+  <defs>
+    <filter id="Rectángulo_4" x="0" y="0" width="902" height="748" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#2e517a" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2714" data-name="Grupo 2714" transform="translate(-942 -282)">
+    <g transform="matrix(1, 0, 0, 1, 942, 282)" filter="url(#Rectángulo_4)">
+      <rect id="Rectángulo_4-2" data-name="Rectángulo 4" width="812" height="658" rx="10" transform="translate(45 40)" fill="#fff"/>
+    </g>
+    <text id="TUS_TARJETAS" data-name="TUS TARJETAS" transform="translate(1039 421)" fill="#004481" font-size="43" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">TUS TARJETAS</tspan></text>
+    <g id="Grupo_2678" data-name="Grupo 2678" transform="translate(1039.239 720)">
+      <g id="Grupo_2675" data-name="Grupo 2675" transform="translate(0)">
+        <rect id="Rectángulo_9" data-name="Rectángulo 9" width="161" height="272" rx="10" transform="translate(271.76) rotate(90)"/>
+      </g>
+      <text id="ITBANK" transform="translate(23.507 35.047)" fill="#fff" font-size="24" font-family="SFProDisplay-Regular, SF Pro Display"><tspan x="0" y="0">ITBANK</tspan></text>
+      <text id="_2733" data-name="**** **** **** 2733" transform="translate(89.364 84.844)" fill="#fff" font-size="14" font-family="Helvetica"><tspan x="0" y="0">**** **** **** 2733</tspan></text>
+      <g id="Grupo_2677" data-name="Grupo 2677" transform="translate(23.507 61.928)">
+        <rect id="Rectángulo_14" data-name="Rectángulo 14" width="22.698" height="29.921" rx="4" transform="translate(30.355 0.503) rotate(90)" fill="#f6c863"/>
+        <g id="Grupo_2655" data-name="Grupo 2655" transform="translate(30.355 0) rotate(90)">
+          <path id="Trazado_28" data-name="Trazado 28" d="M19.1,30.355H4.728C2.118,30.351,0,27.932,0,24.947V5.407C0,2.422,2.118,0,4.728,0H19.1c2.61,0,4.726,2.422,4.728,5.407v19.54c0,2.985-2.118,5.4-4.728,5.407ZM4.728,1.442A3.746,3.746,0,0,0,1.261,5.407v19.54a3.746,3.746,0,0,0,3.468,3.966H19.1a3.746,3.746,0,0,0,3.468-3.966V5.407A3.746,3.746,0,0,0,19.1,1.442Z" transform="translate(0 0)" fill="#eab54e"/>
+          <path id="Trazado_29" data-name="Trazado 29" d="M.63,30.355A.68.68,0,0,1,0,29.634V.721A.68.68,0,0,1,.63,0a.68.68,0,0,1,.63.721V29.634A.68.68,0,0,1,.63,30.355Z" transform="translate(15.321 0)" fill="#eab54e"/>
+          <path id="Trazado_30" data-name="Trazado 30" d="M7.879,1.241H.63A.625.625,0,0,1,0,.62.625.625,0,0,1,.63,0H7.879a.625.625,0,0,1,.63.62A.625.625,0,0,1,7.879,1.241Z" transform="translate(15.321 16.335)" fill="#eab54e"/>
+          <path id="Trazado_31" data-name="Trazado 31" d="M.63,20.043a.625.625,0,0,1-.63-.62V.62A.625.625,0,0,1,.63,0h8.2a.626.626,0,0,1,.63.62.625.625,0,0,1-.63.62H1.261V19.422a.616.616,0,0,1-.184.439.636.636,0,0,1-.446.182Z" transform="translate(7.125 10.311)" fill="#eab54e"/>
+          <path id="Trazado_32" data-name="Trazado 32" d="M8.827,1.241H.63A.626.626,0,0,1,0,.62.625.625,0,0,1,.63,0h8.2a.625.625,0,0,1,.63.62.626.626,0,0,1-.63.62Z" transform="translate(7.125 21.854)" fill="#eab54e"/>
+          <path id="Trazado_33" data-name="Trazado 33" d="M7.753,1.241H.63A.625.625,0,0,1,0,.62.625.625,0,0,1,.63,0H7.755a.625.625,0,0,1,.63.62.625.625,0,0,1-.63.62Z" transform="translate(0.003 12.633)" fill="#eab54e"/>
+        </g>
+      </g>
+      <text id="Desde_Hasta_" data-name="Desde —/ —  Hasta — / —" transform="translate(89.471 112.476)" fill="#fff" font-size="9" font-family="Helvetica"><tspan x="0" y="0" xml:space="preserve">Desde —/ —  Hasta — / —</tspan></text>
+      <text id="CVV_" data-name="CVV ***" transform="translate(89.471 141.674)" fill="#fff" font-size="9" font-family="Helvetica"><tspan x="0" y="0">CVV ***</tspan></text>
+      <path id="Icon_payment-mastercard-alt" data-name="Icon payment-mastercard-alt" d="M64.111,32.833a15.632,15.632,0,0,0-2.337-8.309,19.666,19.666,0,0,0-6.425-5.994,19.823,19.823,0,0,0-8.907-2.18,17.641,17.641,0,0,0-10.659,3.405,16.405,16.405,0,0,1,5.548,8.582H39.726a15.554,15.554,0,0,0-5.11-7.765,15.537,15.537,0,0,0-5.11,7.765H27.9a16.393,16.393,0,0,1,5.548-8.582A17.652,17.652,0,0,0,22.788,16.35a19.812,19.812,0,0,0-8.907,2.18,19.638,19.638,0,0,0-6.425,5.994,15.945,15.945,0,0,0,0,16.619,19.618,19.618,0,0,0,6.425,5.994,19.788,19.788,0,0,0,8.907,2.18,17.641,17.641,0,0,0,10.659-3.405,17.085,17.085,0,0,1-5.4-7.9h1.606a16.524,16.524,0,0,0,4.965,7.084A16.548,16.548,0,0,0,39.58,38.01h1.606a17.126,17.126,0,0,1-5.4,7.9,17.627,17.627,0,0,0,10.659,3.405,19.794,19.794,0,0,0,8.907-2.18,19.645,19.645,0,0,0,6.425-5.994,15.634,15.634,0,0,0,2.336-8.31ZM12.859,28.882h2.775l-1.46,7.9H12.422l1.022-5.994-2.336,5.994H9.793V30.789L8.625,36.783H6.873l1.46-7.9h2.628v4.9Zm8.177,3.27a6.045,6.045,0,0,1-.146,1.226c-.1.636-.2,1.226-.292,1.771a8.6,8.6,0,0,1-.292,1.226v.409h-1.46V36.1a2.173,2.173,0,0,1-1.9.818,1.641,1.641,0,0,1-1.168-.409,2.1,2.1,0,0,1-.438-1.362,2.06,2.06,0,0,1,.73-1.771,4.371,4.371,0,0,1,2.482-.681h.73v-.41c0-.362-.39-.545-1.168-.545a8.75,8.75,0,0,0-1.9.272c.095-.362.194-.818.292-1.362a6.321,6.321,0,0,1,2.044-.409q2.483,0,2.483,1.907Zm-2.044,1.771h-.438c-.974,0-1.46.32-1.46.953,0,.456.194.681.584.681a1.012,1.012,0,0,0,.876-.409A1.6,1.6,0,0,0,18.992,33.923Zm7.155-3.542-.292,1.5a4.8,4.8,0,0,0-1.314-.136c-.584,0-.876.183-.876.545a.525.525,0,0,0,.146.409l.584.272a2.02,2.02,0,0,1,1.314,1.771q0,2.181-2.775,2.18a9.23,9.23,0,0,1-1.9-.137c.095-.362.194-.862.292-1.5a8.429,8.429,0,0,0,1.606.272c.679,0,1.022-.181,1.022-.545a.542.542,0,0,0-.146-.409,1.9,1.9,0,0,0-.73-.409,1.842,1.842,0,0,1-1.314-1.771q0-2.177,2.628-2.18a7.275,7.275,0,0,1,1.753.137Zm2.774,0H29.8l-.146,1.634H28.629a4.814,4.814,0,0,1-.146,1.226,3.985,3.985,0,0,1-.073.545,1.034,1.034,0,0,1-.219.545v.545c0,.364.194.545.584.545a1.366,1.366,0,0,0,.584-.136l-.292,1.5a4.723,4.723,0,0,1-1.314.137q-1.461,0-1.46-1.362a5.994,5.994,0,0,1,.292-1.771l.73-4.359h1.752l-.145.955Zm6.571,2.18a8.032,8.032,0,0,1-.146,1.634H31.7a1.256,1.256,0,0,0,.292.953,1.866,1.866,0,0,0,1.314.409,4.073,4.073,0,0,0,1.9-.545l-.292,1.634a5.5,5.5,0,0,1-1.9.272q-3.067,0-3.067-2.861a3.887,3.887,0,0,1,.876-2.724,2.847,2.847,0,0,1,4.088-.409,2.144,2.144,0,0,1,.584,1.635Zm-3.651.272h2.045v-.409l-.146-.272a.394.394,0,0,0-.146-.272.424.424,0,0,1-.292-.136h-.292q-.876,0-1.168,1.09Zm8.177-2.452a9.731,9.731,0,0,0-.73,1.907c-.39-.089-.73.136-1.022.681a25.2,25.2,0,0,0-.73,3.814h-1.9l.146-.409q.581-3.812.876-5.994h1.752l-.146.953a1.815,1.815,0,0,1,.876-.818.666.666,0,0,1,.876-.136Zm6.132-1.226-.292,1.634a3.844,3.844,0,0,0-1.606-.409A2.005,2.005,0,0,0,42.5,31.2a3.316,3.316,0,0,0-.584,2.18,1.8,1.8,0,0,0,.438,1.362,1.417,1.417,0,0,0,1.168.545,3.846,3.846,0,0,0,1.606-.409l-.292,1.771a3.856,3.856,0,0,1-1.606.272,3.018,3.018,0,0,1-2.336-.953,3.2,3.2,0,0,1-.876-2.452,5.037,5.037,0,0,1,1.168-3.405,3.433,3.433,0,0,1,2.92-1.362,7.472,7.472,0,0,1,2.044.409Zm5.257,3a4,4,0,0,1-.073.545,3.788,3.788,0,0,0-.073.681c-.1.456-.2,1.069-.292,1.839a9.043,9.043,0,0,1-.292,1.567h-1.46V36.1a2.173,2.173,0,0,1-1.9.818,1.641,1.641,0,0,1-1.168-.409,2.1,2.1,0,0,1-.438-1.362,2.06,2.06,0,0,1,.73-1.771A4.114,4.114,0,0,1,48.78,32.7h.73a.538.538,0,0,0,.146-.409c0-.362-.39-.545-1.168-.545a8.75,8.75,0,0,0-1.9.272,4.156,4.156,0,0,1,.292-1.362,6.321,6.321,0,0,1,2.045-.409q2.481,0,2.481,1.907Zm-2.044,1.771h-.438c-.974,0-1.46.32-1.46.953,0,.456.194.681.584.681a1.012,1.012,0,0,0,.876-.409A1.6,1.6,0,0,0,49.363,33.923Zm6.57-3.542a3.483,3.483,0,0,0-.73,1.907c-.39-.089-.73.136-1.022.681a25.8,25.8,0,0,0-.73,3.814h-1.9l.146-.409q.578-2.978.876-5.994h1.752a2.875,2.875,0,0,1-.146.953,1.815,1.815,0,0,1,.876-.818,1.109,1.109,0,0,1,.876-.136Zm4.527-1.5h1.9l-1.46,7.9H59.147l.146-.545a2,2,0,0,1-1.606.681,1.757,1.757,0,0,1-1.606-.681,3.114,3.114,0,0,1-.73-1.907,4.015,4.015,0,0,1,1.022-2.861,2.326,2.326,0,0,1,2.045-1.09,2.6,2.6,0,0,1,1.752.818l.292-2.316Zm-.73,4.223c0-.818-.343-1.226-1.022-1.226a1.234,1.234,0,0,0-1.022.681,2.717,2.717,0,0,0-.292,1.5q0,1.226.876,1.226a1.288,1.288,0,0,0,1.022-.545,2.569,2.569,0,0,0,.437-1.635Z" transform="translate(188.964 -0.354)" fill="#fff"/>
+    </g>
+    <g id="Grupo_2715" data-name="Grupo 2715">
+      <g id="Grupo_2659" data-name="Grupo 2659" transform="translate(1039.239 474)">
+        <rect id="Rectángulo_9-2" data-name="Rectángulo 9" width="162" height="271" rx="10" transform="translate(270.76) rotate(90)"/>
+        <text id="_6236" data-name="**** **** **** 6236" transform="translate(80.629 86.153)" fill="#fff" font-size="17" font-family="Helvetica"><tspan x="0" y="0">**** **** **** 6236</tspan></text>
+        <g id="g4158" transform="translate(202.255 23.36)">
+          <path id="polygon9" d="M437.729,127.577h-4.222l2.641-16.85h4.222Z" transform="translate(-415.144 -110.421)" fill="#fff"/>
+          <path id="path11" d="M577.844,105.765a10.123,10.123,0,0,0-3.787-.717c-4.169,0-7.105,2.294-7.123,5.574-.035,2.42,2.1,3.764,3.7,4.571,1.633.825,2.189,1.363,2.189,2.1-.017,1.129-1.32,1.649-2.536,1.649a8.187,8.187,0,0,1-3.961-.9l-.556-.269-.591,3.782a12.5,12.5,0,0,0,4.709.9c4.43,0,7.314-2.259,7.348-5.754.017-1.918-1.111-3.388-3.544-4.589-1.477-.771-2.381-1.291-2.381-2.08.017-.717.765-1.452,2.432-1.452a6.984,6.984,0,0,1,3.145.645l.382.179.574-3.639Z" transform="translate(-539.953 -105.048)" fill="#fff"/>
+          <path id="path13" d="M797.054,121.607c.348-.968,1.686-4.714,1.686-4.714-.017.036.347-.986.555-1.613l.295,1.452s.8,4.033.973,4.876Zm5.212-10.88H799a2.078,2.078,0,0,0-2.207,1.4l-6.271,15.452h4.43l.886-2.528h5.421c.121.592.5,2.528.5,2.528h3.909l-3.406-16.85Z" transform="translate(-753.552 -110.421)" fill="#fff"/>
+          <path id="path15" d="M176.259,110.727l-4.135,11.49-.452-2.33a12.8,12.8,0,0,0-5.837-7.063l3.787,14.735h4.465l6.636-16.832Z" transform="translate(-161.423 -110.421)" fill="#fff"/>
+          <path id="path17" d="M88.028,110.727H81.235l-.069.34c5.3,1.4,8.808,4.769,10.25,8.82l-1.477-7.744a1.753,1.753,0,0,0-1.911-1.416Z" transform="translate(-81.166 -110.421)" fill="#faa61a"/>
+        </g>
+        <g id="Grupo_2656" data-name="Grupo 2656" transform="translate(15.101 61.111)">
+          <rect id="Rectángulo_14-2" data-name="Rectángulo 14" width="22.937" height="29.771" rx="4" transform="translate(30.203 0.508) rotate(90)" fill="#f6c863"/>
+          <g id="Grupo_2655-2" data-name="Grupo 2655" transform="translate(30.203 0) rotate(90)">
+            <path id="Trazado_28-2" data-name="Trazado 28" d="M19.306,30.2H4.778C2.141,30.2,0,27.793,0,24.823V5.381C0,2.41,2.141,0,4.778,0H19.306c2.638,0,4.775,2.41,4.778,5.381V24.823c0,2.97-2.141,5.377-4.778,5.381ZM4.778,1.435a3.749,3.749,0,0,0-3.5,3.946V24.823a3.749,3.749,0,0,0,3.5,3.946H19.306a3.749,3.749,0,0,0,3.5-3.946V5.381a3.749,3.749,0,0,0-3.5-3.946Z" transform="translate(0 0)" fill="#eab54e"/>
+            <path id="Trazado_29-2" data-name="Trazado 29" d="M.637,30.2A.681.681,0,0,1,0,29.486V.717A.681.681,0,0,1,.637,0a.681.681,0,0,1,.637.717V29.486A.681.681,0,0,1,.637,30.2Z" transform="translate(15.483 0)" fill="#eab54e"/>
+            <path id="Trazado_30-2" data-name="Trazado 30" d="M7.962,1.235H.637A.627.627,0,0,1,0,.617.627.627,0,0,1,.637,0H7.962A.627.627,0,0,1,8.6.617.627.627,0,0,1,7.962,1.235Z" transform="translate(15.483 16.254)" fill="#eab54e"/>
+            <path id="Trazado_31-2" data-name="Trazado 31" d="M.637,19.943A.627.627,0,0,1,0,19.326V.617A.627.627,0,0,1,.637,0H8.92a.627.627,0,0,1,.637.617.627.627,0,0,1-.637.617H1.274V19.325a.608.608,0,0,1-.186.437A.648.648,0,0,1,.637,19.943Z" transform="translate(7.2 10.26)" fill="#eab54e"/>
+            <path id="Trazado_32-2" data-name="Trazado 32" d="M8.92,1.235H.637A.627.627,0,0,1,0,.617.627.627,0,0,1,.637,0H8.92a.627.627,0,0,1,.637.617.627.627,0,0,1-.637.617Z" transform="translate(7.2 21.745)" fill="#eab54e"/>
+            <path id="Trazado_33-2" data-name="Trazado 33" d="M7.835,1.235H.637A.627.627,0,0,1,0,.617.627.627,0,0,1,.637,0h7.2a.627.627,0,0,1,.637.617.627.627,0,0,1-.637.617Z" transform="translate(0.003 12.57)" fill="#eab54e"/>
+          </g>
+        </g>
+        <text id="Desde_Hasta_2" data-name="Desde —/ —  Hasta — / —" transform="translate(79.438 114.348)" fill="#fff" font-size="10" font-family="Helvetica"><tspan x="0" y="0" xml:space="preserve">Desde —/ —  Hasta — / —</tspan></text>
+        <text id="CVV_2" data-name="CVV ***" transform="translate(79.438 143.855)" fill="#fff" font-size="10" font-family="Helvetica"><tspan x="0" y="0">CVV ***</tspan></text>
+      </g>
+      <text id="ITBANK-2" data-name="ITBANK" transform="translate(1055 510)" fill="#fff" font-size="24" font-family="SFProDisplay-Regular, SF Pro Display"><tspan x="0" y="0">ITBANK</tspan></text>
+    </g>
+    <g id="Grupo_2709" data-name="Grupo 2709" transform="translate(1338 487)">
+      <text id="Ver_datos" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2679" data-name="Grupo 2679">
+        <path id="Trazado_36" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022" data-name="01/06/2022" transform="translate(0 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:" data-name="Últimos consumos:" transform="translate(256 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+      <text id="_15.200_00" data-name="$15.200,00" transform="translate(256 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">$15.200,00</tspan></text>
+      <text id="Ver_datos-2" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2706" data-name="Grupo 2706">
+        <path id="Trazado_36-2" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_2" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022-2" data-name="01/06/2022" transform="translate(0 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022-2" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:-2" data-name="Últimos consumos:" transform="translate(256 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+      <text id="_15.200_00-2" data-name="$15.200,00" transform="translate(256 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">$15.200,00</tspan></text>
+      <text id="Ver_datos-3" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2707" data-name="Grupo 2707">
+        <path id="Trazado_36-3" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_3" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022-3" data-name="01/06/2022" transform="translate(0 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022-3" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:-3" data-name="Últimos consumos:" transform="translate(256 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+      <text id="_15.200_00-3" data-name="$15.200,00" transform="translate(256 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">$15.200,00</tspan></text>
+      <text id="Ver_datos-4" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2708" data-name="Grupo 2708">
+        <path id="Trazado_36-4" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_4" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022-4" data-name="01/06/2022" transform="translate(0 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022-4" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:-4" data-name="Últimos consumos:" transform="translate(256 56.99)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+      <text id="_15.200_00-4" data-name="$15.200,00" transform="translate(256 83.005)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">$15.200,00</tspan></text>
+    </g>
+    <g id="Grupo_2711" data-name="Grupo 2711" transform="translate(1338 729)">
+      <text id="Ver_datos-5" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2679-2" data-name="Grupo 2679">
+        <path id="Trazado_36-5" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_5" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022-5" data-name="01/06/2022" transform="translate(0 83)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022-5" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:-5" data-name="Últimos consumos:" transform="translate(256 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+      <text id="_56.280_00" data-name="$56.280,00" transform="translate(256 83)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">$56.280,00</tspan></text>
+      <text id="Ver_datos-6" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2706-2" data-name="Grupo 2706">
+        <path id="Trazado_36-6" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_6" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022-6" data-name="01/06/2022" transform="translate(0 83)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022-6" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:-6" data-name="Últimos consumos:" transform="translate(256 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+      <text id="Ver_datos-7" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2707-2" data-name="Grupo 2707">
+        <path id="Trazado_36-7" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_7" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022-7" data-name="01/06/2022" transform="translate(0 83)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022-7" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:-7" data-name="Últimos consumos:" transform="translate(256 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+      <text id="_" data-name="$" transform="translate(256 83)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">$</tspan></text>
+      <text id="Ver_datos-8" data-name="Ver datos" transform="translate(64.5 21.911)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Ver datos</tspan></text>
+      <g id="Grupo_2708-2" data-name="Grupo 2708">
+        <path id="Trazado_36-8" data-name="Trazado 36" d="M33.091,120.5H11.909C5.342,120.5,0,126.312,0,133.455s5.342,12.955,11.909,12.955H33.091C39.658,146.411,45,140.6,45,133.455S39.658,120.5,33.091,120.5ZM11.909,143.542c-5.113,0-9.272-4.525-9.272-10.087s4.16-10.087,9.272-10.087,9.272,4.525,9.272,10.087S17.022,143.542,11.909,143.542Z" transform="translate(0 -120.5)" fill="#707b9b"/>
+      </g>
+      <text id="Próximo_Vencimiento:_Próximo_cierre:_8" data-name="Próximo Vencimiento: 
+
+
+Próximo cierre:
+
+" transform="translate(0 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Próximo Vencimiento: </tspan><tspan x="0" y="23"></tspan><tspan x="0" y="46"></tspan><tspan x="0" y="69">Próximo cierre:</tspan><tspan x="0" y="92"></tspan><tspan x="0" y="115"></tspan></text>
+      <text id="_01_06_2022-8" data-name="01/06/2022" transform="translate(0 83)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">01/06/2022</tspan></text>
+      <text id="_19_05_2022-8" data-name="19/05/2022" transform="translate(0 151.138)" fill="#004481" font-size="18" font-family="Helvetica"><tspan x="0" y="0">19/05/2022</tspan></text>
+      <text id="Últimos_consumos:-8" data-name="Últimos consumos:" transform="translate(256 57)" fill="#004481" font-size="19" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Últimos consumos:</tspan></text>
+    </g>
+  </g>
+</svg>
