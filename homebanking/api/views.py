@@ -1,8 +1,9 @@
+from urllib import response
 from django.shortcuts import render
 from rest_framework.views import APIView 
 from rest_framework.response import Response 
 from rest_framework import status
-
+from rest_framework.decorators import api_view
 #importando serializadores.
 from .serializers import ClienteSerializer
 from .serializers import TarjetaSerializer
@@ -10,9 +11,9 @@ from .serializers import DireccionSerializer
 from .serializers import CuentaSerializer
 from .serializers import TipoCuentaSerializer
 from .serializers import PrestamoSerializer
-
+from .serializers import SucursalSerializer
 #importando modelos.
-from .models import Cliente
+from .models import Cliente, Sucursal
 from .models import Tarjeta
 from .models import Direccion
 from .models import Cuenta
@@ -24,8 +25,17 @@ from rest_framework import permissions
 from .permissions import esEmpleado
 from .permissions import esCliente
 from .permissions import esEmpleadoOCliente
-
 # Create your views here.
+
+class GetSucursales(APIView):
+    
+    def get(self, request):
+        items = Sucursal.objects.using("ITBANK").all()
+        serializer = SucursalSerializer(items, many=True)
+        return Response(serializer.data)
+        
+        
+
 class InfoCliente(APIView):
     permission_classes = [permissions.IsAuthenticated, esCliente]
 
