@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+body {
+    background-color: #f4f8fb;
+}
+
+.img-cabecera {
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 6cm;
+    background-color: #004481;
+}
+
+.datos-form-1 {
+    display: flex;
+}
+
+.img-form {
+    max-width: 100px;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 168px;
+}
+
+/* gral */
+.form-login {
+    width: 500px;
+    height: auto;
+    background: white;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    border: solid 1px #1873b9;
+    color: #004481;
+    position: relative;
+}
+
+/* titulo */
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+}
+
+/* subtitulo */
+.form-login h6 {
+    color: #abb9d6;
+    text-align: center;
+    height: auto;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* usuario y contraseña */
+.controls {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #1873b9;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all ease 1s;
+}
+
+.controls:hover {
+    transition: all ease 0.5s;
+    color: #1873b9;
+}
+
+/* ingresar */
+.buttons {
+    width: 150px;
+    height: 40px;
+    background: #004481;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flow-root;
+    text-align: center;
+    margin: auto auto;
+}
+
+/* registrarme / olvide */
+.form-login a {
+    color: #1873b9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* acomodado */
+.registrarme {
+    float: left;
+}
+
+.olvide {
+    padding-left: 195px;
+}
+
+#row_letra {
+    color: rgb(127, 138, 139);
+}
+
+.color-boton {
+    color: #1873b9;
+}
+
+footer {
+    padding: 1em 0;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 26%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 22%;
+}
+
+.clave-olvide {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        position: relative;
+        padding-bottom: 5.5em;
+        min-height: 100vh;
+        background: white;
+    }
+
+    .img-cabecera {
+        margin-top: 0;
+    }
+
+    header .logo-header {
+        max-width: 10rem;
+        margin: 3rem 0rem 0rem 0rem;
+        padding-bottom: 4.5rem;
+        position: relative;
+    }
+
+    .img-form {
+        max-width: 100px;
+        position: absolute;
+        margin-top: -110px;
+        margin-left: 0;
+    }
+
+    .form-login {
+        width: 380px;
+        height: auto;
+        background: white;
+        margin: auto;
+        padding: 20px 30px;
+        color: #004481;
+        position: relative;
+        border: none;
+    }
+
+    .form-login h5 {
+        margin: 0;
+        height: 40px;
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+
+    .form-login h6 {
+        color: #abb9d6;
+        height: auto;
+        margin-bottom: 30px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .controls {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2.5px solid #1873b9;
+        margin-bottom: 15px;
+        padding: 11px 10px;
+        font-size: 14px;
+        font-weight: bold;
+        transition: all ease 1s;
+    }
+
+    footer {
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+    }
+
+    .col-1 {
+        flex: 0 0 auto;
+        width: 26%;
+    }
+
+    .col-2 {
+        flex: 0 0 auto;
+        width: 22%;
+    }
+
+    .clave-olvide {
+        text-align: center;
+    }
+}

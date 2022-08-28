@@ -1,0 +1,38 @@
+{% extends 'Login/base-log-reg.html' %}
+
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'Login/css/styles-login.css' %}" />
+{% endblock %}
+
+{% block title %} Iniciar Sesión {% endblock %}
+
+
+<!--Cambios Jime - FORMULARIO-->
+{% block content %}
+<div class="form-login">
+	<img src="{% static 'Login/images/profile-icon.png' %}" alt="" class="img-form" />
+	<h5>¡Bienvenido!<h6>¿Qué tal tu día hoy?</h6>
+	</h5>
+
+	<form action="" method="post">
+		{% if messages %}
+		{% for message in messages %}
+
+		{{ message }}
+		{% endfor %}
+
+
+		{% endif %}
+		{% csrf_token %}
+		<input class="controls" type="text" name="username" value="" placeholder="Usuario" />
+		<input class="controls" type="password" name="password" value="" placeholder="Contraseña" />
+		<a href=""><input class="buttons" type="submit" name="" value="Ingresar" /></a>
+	</form>
+
+	<p class="subtext"><a href="{% url 'password_reset' %}">Olvide mi clave</a></p>
+	<p class="subtext"><a href="{% url 'register' %}">Registrarme</a></p>
+</div>
+
+{% endblock %}

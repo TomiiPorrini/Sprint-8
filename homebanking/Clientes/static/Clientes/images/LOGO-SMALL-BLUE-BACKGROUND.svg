@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="472" height="316" viewBox="0 0 472 316">
+  <defs>
+    <clipPath id="clip-LOGO-SMALL-BLUE-BACKGROUND">
+      <rect width="472" height="316"/>
+    </clipPath>
+  </defs>
+  <g id="LOGO-SMALL-BLUE-BACKGROUND" clip-path="url(#clip-LOGO-SMALL-BLUE-BACKGROUND)">
+    <rect width="472" height="316" fill="#004481"/>
+    <text id="ITBANK" transform="translate(48 186)" fill="#fff" font-size="104" font-family="Helvetica"><tspan x="0" y="0">ITBANK</tspan></text>
+  </g>
+</svg>

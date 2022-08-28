@@ -1,0 +1,7 @@
+1- ver modelo a usar.
+
+2- hacer el serializer.
+
+3- hacer la view heredando de ApiView.
+
+4- agregar la url.

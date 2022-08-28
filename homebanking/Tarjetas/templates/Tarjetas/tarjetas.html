@@ -1,0 +1,12 @@
+<!-- agregamos el bloque extends que tomara el html base-->
+{% extends 'Login/base.html' %}
+<!-- Agregamos el contenido estatico-->
+{% load static %}
+<!-- Agregamos el titulo de la home -->
+{% block title %} Tarjetas {% endblock %}
+
+{% block style %}<link rel="stylesheet" href="{% static 'Login/css/styles-index.css' %}">{% endblock %}
+
+<!-- indicamos que lo de abajao se dibuje despues del menu armado en la base-->
+{% block content %}
+{% endblock %}
