@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/***************** ENCABEZADO *****************/
+header a {
+  text-decoration: none;
+  color: #004481;
+}
+
+header a:hover {
+  color: #0066b4;
+}
+
+header {
+  height: auto;
+  color: #004481;
+  margin-top: 25px;
+}
+
+header h1 {
+  display: inline;
+  width: 100%;
+  font-size: 5em;
+  text-align: center;
+}
+/***************** BODY *****************/
+body {
+  position: relative;
+  padding-bottom: 5.5em;
+  min-height: 100vh;
+  background: #f4f8fb;
+}
+
+/***************** FORMULARIO *****************/
+/* intentar acomodar la imagen */
+
+.img-form {
+  max-width: 100px;
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 168px;
+}
+/* gral */
+.form-login {
+  width: 500px;
+  height: auto;
+  background: white;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  padding: 20px 30px;
+  border: solid 1px #1873b9;
+  color: #004481;
+  position: relative;
+}
+/* titulo */
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+/* subtitulo */
+.form-login h6 {
+  color: #abb9d6;
+  text-align: center;
+  height: auto;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+/* usuario y contraseña */
+.controls {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #1873b9;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all ease 1s;
+}
+
+.controls:hover {
+  transition: all ease 0.5s;
+  color: #1873b9;
+}
+/* ingresar */
+.buttons {
+  width: 150px;
+  height: 40px;
+  background: #004481;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flow-root;
+  text-align: center;
+  margin: auto auto;
+}
+
+/* registrarme / olvide */
+.form-login a {
+  color: #1873b9;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* acomodado */
+
+.subtext {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 20px;
+  color: #004481;
+}
+
+/***************** PIE DE PAGINA *****************/
+
+.color-boton {
+  color: #1873b9;
+}
+
+footer {
+  padding: 1em 0;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 26%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 22%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    position: relative;
+    padding-bottom: 5.5em;
+    min-height: 100vh;
+    background: white;
+  }
+
+  header .logo-header {
+    max-width: 10rem;
+    margin: 3rem 0rem 0rem 0rem;
+    padding-bottom: 8rem;
+    position: relative;
+  }
+
+  .img-form {
+    max-width: 100px;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 0;
+  }
+
+  .form-login {
+    width: 380px;
+    height: auto;
+    background: white;
+    margin: auto;
+    padding: 20px 30px;
+    color: #004481;
+    position: relative;
+    border: none;
+  }
+
+  .form-login h5 {
+    margin: 0;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .form-login h6 {
+    color: #abb9d6;
+    height: auto;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .controls {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2.5px solid #1873b9;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all ease 1s;
+  }
+
+  footer {
+    padding: 1em 0;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .col-1 {
+    flex: 0 0 auto;
+    width: 26%;
+  }
+
+  .col-2 {
+    flex: 0 0 auto;
+    width: 22%;
+  }
+
+}

@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+.header .nav {
+  color:#FFFFFF;
+  background-color: #004481;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  padding: 1.2rem 0;
+  margin: 0 auto;
+}
+
+.header .nav-logo {
+ margin: 0 0rem 0rem 2rem;
+ max-width: 150px;
+}
+
+.header .nav-menu{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 10px;
+  padding-left: 3rem;
+}
+
+.header .nav-menu__item {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+}
+
+.header .nav-menu__link {
+  margin: 0 2rem 0 0;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.main{
+  background-color: #F4F8FB;
+}
+
+.main .main-text{
+  color:#004481;
+  font-size: 2.5rem;
+  padding: 2rem 2rem 0rem 6rem;
+}
+.main .sub-main-text{
+  color:#004481;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 0rem 0rem 0rem 6rem;
+}
+
+
+.main .products {
+  margin-top: 2rem;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+.main .products .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 6rem 2rem 6rem;
+  width: auto;
+  
+}
+
+.main .products .card-1 {
+  padding: 2rem;
+  background: #ffffff;
+  color: #1873B9;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: 260px;
+  width: auto;
+  
+}
+.main .products .card {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #000000;
+  color: #ffffff;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: 260px;
+  width: auto;
+}
+
+.main .products .card-image {
+  padding-right: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.main .products .card-image img {
+  max-height: 10rem;
+  height: 100%;
+  width: auto;
+}
+
+.main .products .card-text {
+  margin-top: 1rem;
+}
+
+.main .products .card-1 .card-text__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: inherit;
+  text-transform: uppercase;
+  color: #004481;
+  margin-bottom: 1rem;
+}
+
+.main .products .card-1 .card-text__subs1 {
+  color: #004481;
+  margin-left: 1rem;
+}
+.main .products .card .card-text__subs {
+  padding-left: 2rem;
+}
+
+.main .products .card .card-text__title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: inherit;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  
+}
+
+.card-4 {
+  padding: 3rem 0rem;
+  margin: 2rem 6rem 2rem 6rem;;
+  background: #ffffff;
+  color: #1873B9;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: auto;
+  width: auto;
+}
+
+.card-4 .card-text4{
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 5rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+  color: #004481;
+}
+
+.card-4 .card-text4 .span4{
+  font-weight: 700;
+} 
+
+.card-4 .card-submit{
+  background-color: #004481;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  padding: 16px 120px;
+  text-decoration: none;
+  margin: 24px 32px;
+  cursor: pointer;
+} 
+
+.footer {
+  margin-top: 5rem;
+  padding: 3rem 0;
+  background: #CDDBE8;
+  color: #ffffff;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-basis: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer .footer-menu{
+  margin-left: 2rem;
+  padding-left: 3rem;
+  color: #004481;
+}
+
+.footer .footer-menu p{
+  font-size: 2rem;
+  font-weight: bold;
+      padding-left: 2rem;
+}
+
+
+.footer-menu__item2{
+  color: #004481;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-basis: auto;
+}
+
+.footer-menu__link {
+  margin: 0.5rem 2rem 0 0;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #004481;
+}
+
+.footer-menu__icon {
+  margin: 0.5rem 2rem 0 0;
+  height: 3.5rem;
+}
+
+.footer-copy{
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 6rem 4rem 0rem 0rem;
+
+}
+
+  
+
+@media only screen and (max-width: 600px) {
+  .header .nav {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header .nav-logo {
+    margin: 0 auto;
+    max-width: 200px;
+    padding-bottom: 0;
+   }
+
+   .header .nav-menu{
+    padding-top: 0;
+    padding-bottom: 10px;
+    
+  }
+  .header .nav-menu__link {
+    margin: 0 0.7rem 0 0;
+    font-family: inherit;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+
+  .main .products .container{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    order: 2;
+  }
+
+  .main .main-text{
+    font-size: 2rem;
+    padding-left: 2rem;
+  }
+
+  .main .sub-main-text{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+  }
+
+
+  .main .products .card-1 {
+    padding: 2rem;
+    font-size: 1rem;
+    height: 280px;
+    width: 320px
+}
+
+.main .products .card-1 .card-text__subs1 {
+  display: table-cell; 
+}
+
+.main .products .card .card-text__title {
+  font-size: 1rem;
+}
+
+.main .products .card .card-text__subs {
+  font-size: 1rem;
+
+}
+
+.card-4 {
+  padding: 2rem;
+  height: auto;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.card-4 .card-text4 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-left: 0;
+  font-weight: 400;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.card-4 .card-submit{
+  border-radius: 5x;
+  font-size: 1.2rem;
+  padding: 12px 50px;
+  margin: 0 auto;
+} 
+
+  .footer .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .footer-menu{
+    margin: 0 auto;
+    padding-left: 0rem;
+  }
+  
+  .footer .footer-menu p{
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-menu__item2{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-basis: auto;
+  }
+  
+  .footer-menu__link {
+    padding: 0.5rem 2rem 0 0;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  .footer-menu__icon {
+    margin: 0 auto;
+    padding: 0.5rem 2rem 0 0;
+    height: 3.5rem;
+  }
+
+  .footer-copy{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 6rem 0rem 0rem 0rem;
+  
+  }
+  /* agregar clases para colores de variacion / cotizacion */
+}
+
+

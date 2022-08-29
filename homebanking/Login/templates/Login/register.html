@@ -1,0 +1,32 @@
+
+{% extends 'Login/base-log-reg.html' %}
+
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'Login/css/styles-reg.css' %}" />
+{% endblock %}
+
+{% block title %} Registrate {% endblock %}
+{% block content %}
+
+<div class="form-login">
+	{% if form.errors %}
+		<p>Los datos ingresados no son correctos. Por favor, intente nuevamente con otros datos</p>
+	{% endif %}
+
+	<h5>Vamos a crear tu usuario :)</h5>
+	<div class="datos-form-1">
+		<form action="{% url 'register' %}" method="post">
+			{% csrf_token %}
+
+			{{ form.as_p }}
+			<input class="buttons" type="submit" name="" value="Crear cuenta"/>
+
+
+		</form>
+	</div>
+</div>
+
+
+{%endblock%}

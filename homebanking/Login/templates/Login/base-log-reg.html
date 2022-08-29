@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    {% block style %}{% endblock %}
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="{% static 'Login/images/favicon.ico' %}">
+    <title>{% block title %}{% endblock %} | ITBANK</title>
+</head>
+
+<body>
+    <header class="text-center w-100">
+        <a href="#"><img class="logo-header" src="{% static 'Login/images/logo-azul-grande.jpg' %}"
+                alt="logo Itbank" /></a>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <div class="container">
+            <!-- FILA 1 - DE ICONOS -->
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <a href="#" class="btn" aria-current="page"><img src="{% static 'Login/images/Icon-twitter.jpg' %}" alt="Twitter"
+                            class="img-fluid img" /></a>
+                </div>
+                <div class="col-1">
+                    <a href="#" class="btn"><img src="{% static 'Login/images/instagram.svg' %}" alt="Instagram"
+                            class="img-fluid img" /></a>
+                </div>
+                <div class="col-2">
+                    <a href="#" class="btn"><img src="{% static 'Login/images/question-mark.svg' %}" alt="Question"
+                            class="img-fluid img" /></a>
+                </div>
+                <div class="col-1">
+                    <a href="#" class="btn"><img src="{% static 'Login/images/institucional.svg' %}" alt="Home"
+                            class="img-fluid img" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+</html>
