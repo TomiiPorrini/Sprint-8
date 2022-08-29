@@ -1,4 +1,4 @@
-from .models import Cliente
+from .models import Cliente, Sucursal
 from .models import Tarjeta
 from .models import Direccion
 from .models import Empleado
@@ -52,6 +52,13 @@ class TipoCuentaSerializer(serializers.ModelSerializer):
 class PrestamoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Prestamo
+        # indicamos que use todos los campos
+        fields = "__all__"
+        # les decimos cuales son los de solo lectura
+
+class SucursalSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Sucursal
         # indicamos que use todos los campos
         fields = "__all__"
         # les decimos cuales son los de solo lectura
