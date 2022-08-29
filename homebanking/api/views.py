@@ -1,10 +1,12 @@
+
 from datetime import date
 from time import strftime
+from urllib import response
 from django.shortcuts import render
 from rest_framework.views import APIView 
 from rest_framework.response import Response 
 from rest_framework import status
-
+from rest_framework.decorators import api_view
 #importando serializadores.
 from .serializers import ClienteSerializer
 from .serializers import TarjetaSerializer
@@ -12,9 +14,9 @@ from .serializers import DireccionSerializer
 from .serializers import CuentaSerializer
 from .serializers import TipoCuentaSerializer
 from .serializers import PrestamoSerializer
-
+from .serializers import SucursalSerializer
 #importando modelos.
-from .models import Cliente
+from .models import Cliente, Sucursal
 from .models import Tarjeta
 from .models import Direccion
 from .models import Cuenta
@@ -22,14 +24,20 @@ from .models import TipoCuenta
 from .models import Prestamo
 from .models import Sucursal
 
-
 #importando permisos.
 from rest_framework import permissions
 from .permissions import esEmpleado
 from .permissions import esCliente
 from .permissions import esEmpleadoOCliente
-
 # Create your views here.
+
+class GetSucursales(APIView):
+    
+    def get(self, request):
+        items = Sucursal.objects.using("ITBANK").all()
+        serializer = SucursalSerializer(items, many=True)
+        return Response(serializer.data)
+        
 class InfoCliente(APIView):
     permission_classes = [permissions.IsAuthenticated, esCliente]
 
@@ -178,5 +186,25 @@ class SolicitudPrestamo(APIView):
             return Response("El prestamo ha sido enviado con exito", status=status.HTTP_201_CREATED) 
         return Response("No se pudo enviar el prestamo", status=status.HTTP_400_BAD_REQUEST)
 
+class AnularPrestamo(APIView):
+    def delete(self, request, customer_DNI):
+        # Getting cliente
+        cliente_buscado = Cliente.objects.using('ITBANK').filter(customer_dni = customer_DNI).values().first()
+        if not cliente_buscado: raise "El cliente no existe"
+        customer_id = cliente_buscado['customer_id']
+        # Getting prestamo
+        prestamo = Prestamo.objects.using('ITBANK').filter(customer_id=customer_id)
+        if prestamo:
+            serializer = PrestamoSerializer(prestamo)
+            prestamo.delete()
+            return Response("El prestamo se ha eliminado con exito", status=status.HTTP_201_CREATED)
+        return Response("Hubo un error en la solicitud", status=status.HTTP_400_BAD_REQUEST)
+        
+        """ if not prestamo: raise "El cliente no cuenta con prestamos"
+        # Serializing
+        serializer = PrestamoSerializer(prestamo)
+        if not serializer.is_valid(): return Response("Hubo un error en la solicitud", status=status.HTTP_400_BAD_REQUEST)
+        prestamo.delete()
+        return Response("El prestamo se ha eliminado con exito", status=status.HTTP_201_CREATED) """
 
 

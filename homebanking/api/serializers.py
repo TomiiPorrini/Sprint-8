@@ -5,6 +5,7 @@ from .models import Empleado
 from .models import Cuenta
 from .models import TipoCuenta
 from .models import Prestamo
+from .models import Sucursal
 from rest_framework import serializers
 
 class ClienteSerializer(serializers.ModelSerializer):
