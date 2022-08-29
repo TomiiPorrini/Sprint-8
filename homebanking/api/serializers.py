@@ -64,3 +64,8 @@ class PrestamoSerializer(serializers.ModelSerializer):
         # indicamos que use todos los campos
         fields = "__all__"
         # les decimos cuales son los de solo lectura
+
+class AnularPrestamoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Prestamo
+        fields = "__all__"

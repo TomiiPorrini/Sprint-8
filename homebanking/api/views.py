@@ -152,3 +152,22 @@ class DireccionCliente(APIView):
 
 
 
+class AnularPrestamo(APIView):
+    def delete(self, request, customer_DNI):
+        
+        # Getting cliente
+        cliente_buscado = Cliente.objects.using('ITBANK').filter(customer_dni = customer_DNI).values().first()
+        if not cliente_buscado: raise "El cliente no existe"
+        customer_id = cliente_buscado['customer_id']
+        
+        # Getting prestamo
+        prestamo = Prestamo.objects.using('ITBANK').filter(customer_id=customer_id)
+        if not prestamo: raise "El cliente no cuenta con prestamos"
+        prestamo.delete()
+        # Serializing
+        serializer = AnularPrestamo(prestamo)
+        if not serializer.is_valid(): raise "Hubo un problema con los serializadores"
+        serializer.save()
+        return response(serializer.data)
+
+
