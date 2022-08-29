@@ -16,6 +16,7 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
     - Un cliente autenticado puede obtener el tipo de cuenta y su saldo
     > Link prueba: http://127.0.0.1:8000/api/cliente/cuenta/DniABuscar/
 
+
 * OBTENER MONTO DE PRESTAMOS DE UN CLIENTE
     - Un cliente autenticado puede obtener el tipo de préstamo y total del mismo 
     > Link prueba: http://127.0.0.1:8000/api/cliente/prestamo/DniABuscar/
@@ -30,11 +31,12 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
 
 * GENERAR UNA SOLICITUD DE PRESTAMO PARA UN CLIENTE
     - Un empleado autenticado puede solicitar un préstamo para un cliente, registrado el mismo y acreditando el saldo en su cuenta 
+
     > Link prueba: http://127.0.0.1:8000/api/cliente/solicitud-prestamo/
 
 * ANULAR SOLICITUD DE PRESTAMO DE CLIENTE
     - Un empleado autenticado puede anular un préstamo para un cliente, revirtiendo el monto correspondiente 
-    > Link prueba: 
+    > Link prueba: http://127.0.0.1:8000/api/cliente/anular-prestamo/DniABuscar/
 
 * MODIFICAR DIRECCION DE UN CLIENTE
     - El propio cliente autenticado o un empleado puede modificar las direcciones. 
@@ -42,7 +44,7 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
 
 * LISTADO DE TODAS LAS SUCURSALES
     - Un endpoint público que devuelve el listado todas las sucursales con la información correspondiente. 
-    > Link prueba: 
+    > Link prueba: http://127.0.0.1:8000/api/sucursales
 
 
 ### Archivo de consigna
