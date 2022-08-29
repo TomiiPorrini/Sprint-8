@@ -1,3 +1,5 @@
+from datetime import date
+from time import strftime
 from django.shortcuts import render
 from rest_framework.views import APIView 
 from rest_framework.response import Response 
@@ -18,6 +20,8 @@ from .models import Direccion
 from .models import Cuenta
 from .models import TipoCuenta
 from .models import Prestamo
+from .models import Sucursal
+
 
 #importando permisos.
 from rest_framework import permissions
@@ -139,6 +143,40 @@ class DireccionCliente(APIView):
                 return Response("No tiene acceso a esta info por ser un cliente distinto al de la informacion", status=status.HTTP_404_NOT_FOUND)
         else:
             return Response("no existe un cliente con ese DNI", status=status.HTTP_404_NOT_FOUND)
+
+class PrestamosSucursal(APIView):
+    permission_classes = [permissions.IsAuthenticated, esEmpleado]
+
+    def get(self, request, branch_id):
+        sucursal_buscada = Sucursal.objects.using('ITBANK').filter(branch_id = branch_id).values().first()
+        if sucursal_buscada:
+            clientes = Cliente.objects.using('ITBANK').filter(branch_id=branch_id)
+            ids = []
+            for cliente in clientes:
+                ids.append(cliente.customer_id)
+
+            prestamos = []
+            for id in ids:
+                prestamos.extend(Prestamo.objects.using('ITBANK').filter(customer_id=id))
+
+            if prestamos:
+                serializer = PrestamoSerializer(prestamos,many=True)
+                return Response(serializer.data, status=status.HTTP_200_OK)
+            else:
+                return Response("La Sucursal no tiene prestamos asociados", status=status.HTTP_200_OK)
+                
+        else:
+            return Response("No existe una sucursal con ese nombre", status=status.HTTP_404_NOT_FOUND)
+
+class SolicitudPrestamo(APIView):
+    def post(self, request):
+        data = request.data
+        data['loan_date'] = date.today().strftime('%Y-%m-%d')
+        serializer = PrestamoSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response("El prestamo ha sido enviado con exito", status=status.HTTP_201_CREATED) 
+        return Response("No se pudo enviar el prestamo", status=status.HTTP_400_BAD_REQUEST)
 
 
 
