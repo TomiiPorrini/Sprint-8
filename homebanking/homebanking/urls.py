@@ -29,8 +29,9 @@ urlpatterns = [
     path('api/cliente/tarjeta/<int:customer_DNI>/',api_views.TarjetasCliente.as_view(), name="api_cliente_tarjeta"),
     path('api/cliente/direccion/<int:customer_DNI>/',api_views.DireccionCliente.as_view(), name="api_cliente_modi_Direccion"),
     path('api/cliente/sucursal/<int:branch_id>/',api_views.PrestamosSucursal.as_view(), name="api_prestamos_sucursal"),
-    path('api/prestamo/',api_views.SolicitudPrestamo.as_view(), name="api_solicitud_prestamo"),
-    
+    path('api/cliente/solicitud-prestamo/',api_views.SolicitudPrestamo.as_view(), name="api_solicitud_prestamo"),
+    path('api/cliente/anular-prestamo/<int:customer_DNI>/',api_views.AnularPrestamo.as_view(), name="api_cliente_modi_Direccion"),
+    path('api/sucursales', api_views.GetSucursales.as_view(), name='sucursales')
 ]
 
 if settings.DEBUG:

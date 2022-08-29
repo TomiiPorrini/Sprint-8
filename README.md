@@ -30,7 +30,7 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
 
 * GENERAR UNA SOLICITUD DE PRESTAMO PARA UN CLIENTE
     - Un empleado autenticado puede solicitar un préstamo para un cliente, registrado el mismo y acreditando el saldo en su cuenta 
-    > Link prueba: http://127.0.0.1:8000/api/prestamo/
+    > Link prueba: http://127.0.0.1:8000/api/cliente/solicitud-prestamo/
 
 * ANULAR SOLICITUD DE PRESTAMO DE CLIENTE
     - Un empleado autenticado puede anular un préstamo para un cliente, revirtiendo el monto correspondiente 
