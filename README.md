@@ -70,3 +70,10 @@ La API que vamos a desarrollar es privada, accesible sólo a usuarios registrado
 
 1. 8712075
 2. 74701370
+
+##imagenes de resultados
+- ![WhatsApp Image 2023-01-04 at 18 32 50](https://user-images.githubusercontent.com/105433665/210654064-b8b482f0-862a-47d3-bebb-56c75dbe3baa.jpeg)
+- ![WhatsApp Image 2023-01-04 at 18 32 50 (1)](https://user-images.githubusercontent.com/105433665/210654165-bb189f32-33dd-4a14-a558-a46afe5403f3.jpeg)
+- ![WhatsApp Image 2023-01-04 at 18 32 50 (2)](https://user-images.githubusercontent.com/105433665/210654192-ea21d416-6f7c-471c-a869-592d7f0feb9c.jpeg)
+- ![WhatsApp Image 2023-01-04 at 18 32 50 (3)](https://user-images.githubusercontent.com/105433665/210654223-319480ca-8c83-4d25-9dcf-a4a752bd5e6c.jpeg)
+- ![WhatsApp Image 2023-01-04 at 18 32 50 (4)](https://user-images.githubusercontent.com/105433665/210654250-0c2a1074-81b2-4dc8-ae54-041408aa02c8.jpeg)
